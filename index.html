@@ -2,14 +2,17 @@
 <html>
 <head>
   <title>Balasevic</title>
+ 
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> 
+  <script> 
+    $(function(){
+      $("#includedContent").load("quote.html"); 
+    });
+  </script> 
 </head>
 <body>
 
-<p>Drugi bi sve imalo smisao,<br>
-Ne bih svakoj pesme pisao<br>
-Da sam znao da postojiš</p>
-
-<p><em>Olivera</em></p>
+<div id="includedContent"></div>
 
 </body>
 </html>
