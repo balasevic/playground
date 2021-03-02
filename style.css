@@ -1,9 +1,15 @@
 body, html {
   height: 100%;
   display: grid;
+  font-family: 'Lora', serif; 
 }
-div {
-  font-family: 'Lora', serif; font-weight:400;
+div.content {
+  font-weight: 400;
+  font-size: 2vw;
+}
+div.source {
+  font-weight: 400;
+  font-size: 1.5vw;
 }
 .center {
   margin: auto;
