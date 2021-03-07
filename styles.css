@@ -10,3 +10,6 @@ div.content {
 .center {
   margin: auto;
 }
+.content.source {
+  font-style: italic;
+}
