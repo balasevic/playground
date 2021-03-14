@@ -6,6 +6,11 @@ body, html {
 div.content {
   font-weight: 400;
 }
+@media only screen and (min-width: 769px) {
+  div.content {
+    font-size: 2vw;
+  }
+}
 @media only screen and (max-width: 768px) {
   div.content {
     font-size: 4vw;
