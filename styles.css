@@ -7,12 +7,12 @@ div.content {
   font-weight: 400;
 }
 @media only screen and (max-width: 768px) {
-  div.content { {
+  div.content {
     font-size: 2vw;
   }
 }
 @media only screen and (max-width: 320px) {
-  div.content { {
+  div.content {
     font-size: 4vw;
   }
 }
