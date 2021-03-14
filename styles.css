@@ -8,12 +8,12 @@ div.content {
 }
 @media only screen and (max-width: 768px) {
   div.content {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 }
 @media only screen and (max-width: 320px) {
   div.content {
-    font-size: 4vw;
+    font-size: 5vw;
   }
 }
 a, a:visited, a:active {
