@@ -3,12 +3,12 @@ body, html {
   display: grid;
   font-family: 'Lora', serif; 
 }
-@media (max-width: 812px) {
+@media (max-width: 1000px) {
   div.content {
     font-size: 3em;
   }
 }
-@media (min-width: 813px) {
+@media (min-width: 1001px) {
   div.content {
     font-size: 2em;
   }
