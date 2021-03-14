@@ -3,6 +3,11 @@ body, html {
   display: grid;
   font-family: 'Lora', serif; 
 }
+@media (max-width: 768px) {
+  div.content {
+    font-size: 3em;
+  }
+}
 div.content {
   font-weight: 400;
   font-size: 2em;
