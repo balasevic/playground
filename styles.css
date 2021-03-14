@@ -5,7 +5,16 @@ body, html {
 }
 div.content {
   font-weight: 400;
-  font-size: calc(1em + 1vw);
+}
+@media only screen and (max-width: 768px) {
+  div.content { {
+    font-size: 2vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  div.content { {
+    font-size: 4vw;
+  }
 }
 a, a:visited, a:active {
   color: inherit;
