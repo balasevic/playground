@@ -3,14 +3,18 @@ body, html {
   display: grid;
   font-family: 'Lora', serif; 
 }
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   div.content {
     font-size: 3em;
   }
 }
+@media (min-width: 813px) {
+  div.content {
+    font-size: 2em;
+  }
+}
 div.content {
   font-weight: 400;
-  font-size: 2em;
 }
 a, a:visited, a:active {
   color: inherit;
