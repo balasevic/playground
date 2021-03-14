@@ -24,4 +24,5 @@ a:hover {
 }
 .content.source {
   font-style: italic;
+  float: right;
 }
